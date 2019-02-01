@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#cabecalho{
+  margin-left: 40vw;
+  margin-top: 1vh;
+  font-size:5em;
+}
+
+h4{
+  margin-left: 41vw;
+  font-family: 'Lobster Two', cursive;
+  color:red;
+}
+
+
+body,html{
+    height: 100%;
+    background-image: url("https://getmalas.com.br/blog/wp-content/uploads/2016/10/viagem-internacional-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.menu {
+  list-style-type: none;
+  margin-left: 35vw;
+  margin-top: 5vh;
+
+}
+
+.menu li {
+  border-style: none;
+  display: inline;
+  position: relative;
+  padding: 20px;
+  line-height: 28px;
+}
+.menu li ul{
+  display: inline;
+}
+.menu li a{
+  font-size: 1.5em;
+  font-family: 'Righteous', cursive;
+  color: black;
+  }
+.menu li ul{
+  position: absolute;
+  top:60px;
+  left: -6px;
+  display: none;
+  font-size: 0.9em;
+
+}
+
+.menu li:hover ul, .menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul {
+  display: block;
+  font-size: 0.85555em;
+  padding-left: 7.1px;
+}
+.menu li:hover{
+}
+
+.container{
+  display: flex;
+  background-color: white;
+}
+.container > div{
+  flex:1;
+}
+.container div{
+  margin: 20px;
+  font-size: 0.5em;
+  font-family: 'ABeeZee', sans-serif;
+}
+.formulario{
+  font-size: 2em;
+  margin: 10px;
+  margin-right: 500px;
+}
+input[type=text]:focus{
+  border: 3px solid #555;
+}
+button{
+  width: 100px;
+  height: 50px;
+}
+button:hover{
+   box-shadow: 10px 10px 8px #888888;
+}
+#tituloform{
+  padding-left: 50vh;
+}
+.imagem{
+  height: 5%;
+  width: 5%;
+}
